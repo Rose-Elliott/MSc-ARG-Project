@@ -39,7 +39,7 @@ try:
     crameri_available = True
 except (ImportError, AttributeError):
     crameri_available = False
-    colormap = 'cividis'  #for if it doesn't work
+    colormap = 'cividis'  
 
 heatmap_params = {
     'cmap': colormap,
